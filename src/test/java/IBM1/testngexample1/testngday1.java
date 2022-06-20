@@ -41,10 +41,15 @@ public class testngday1 {
 		System.out.println("testcase 1");
 	}
 	
+	
+	
+	
+	
 	@Test(groups={"amit"})
-	public void checkingPNRStatus()
+	public void checkingPNRStatus()    
 	{
 		System.out.println("test case 2");
+		
 	}
 	
 	@Test()

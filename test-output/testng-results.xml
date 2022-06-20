@@ -2,22 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24" started-at="2022-06-20T05:08:20Z" finished-at="2022-06-20T05:08:20Z">
+  <suite name="Default suite" duration-ms="29" started-at="2022-06-20T06:50:36Z" finished-at="2022-06-20T06:50:36Z">
     <groups>
-      <group name="regression">
-        <method signature="testngday1.checkingPNRStatus2()[pri:0, instance:IBM1.testngexample1.testngday1@17f6480]" name="checkingPNRStatus2" class="IBM1.testngexample1.testngday1"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="testngday1.checkingPNRStatus2()[pri:0, instance:IBM1.testngexample1.testngday1@17f6480]" name="checkingPNRStatus2" class="IBM1.testngexample1.testngday1"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="24" started-at="2022-06-20T05:08:20Z" finished-at="2022-06-20T05:08:20Z">
-      <class name="IBM1.testngexample1.testngday1">
-        <test-method status="PASS" signature="checkingPNRStatus2()[pri:0, instance:IBM1.testngexample1.testngday1@17f6480]" name="checkingPNRStatus2" duration-ms="9" started-at="2022-06-20T10:38:20Z" finished-at="2022-06-20T10:38:20Z">
+    <test name="Default test" duration-ms="29" started-at="2022-06-20T06:50:36Z" finished-at="2022-06-20T06:50:36Z">
+      <class name="IBM1.testngexample1.softassertionsexample">
+        <test-method status="PASS" signature="hardassert()[pri:0, instance:IBM1.testngexample1.softassertionsexample@36d64342]" name="hardassert" duration-ms="14" started-at="2022-06-20T12:20:36Z" finished-at="2022-06-20T12:20:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkingPNRStatus2 -->
-      </class> <!-- IBM1.testngexample1.testngday1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- hardassert -->
+      </class> <!-- IBM1.testngexample1.softassertionsexample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
