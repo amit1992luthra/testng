@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <groups>
-    <run>
-      <include name="smoke"/>
-      <exclude name="amit"/>
-    </run>
-  </groups>
+<suite name="Suite" >
+
+<groups>		
+   <run>		
+    <include name="smoke"/>	
+     <exclude name="amit"/>	
+   </run>		
+</groups>
   <test name="Test">
     <classes>
       <class name="IBM1.testngexample1.testngday1"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Failed suite [Suite] -->
+</suite> <!-- Suite -->

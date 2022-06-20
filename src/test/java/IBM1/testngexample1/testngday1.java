@@ -32,20 +32,39 @@ public class testngday1 {
 	{
 		System.setProperty("webdriver.chrome.driver", ".//lib//chromedriver.exe");
 		driver = new ChromeDriver();  //open my browser
-		driver.get("https://demo.guru99.com/test/newtours/register.php");
+		driver.get("https://www.google.com/");
 	}
 	
-	@Test
+	@Test(groups={"regression","amit","smoke"})
 	public void zbookingtickets()
 	{
-		System.out.println("generating PNR Number");
+		System.out.println("testcase 1");
 	}
 	
-	@Test(dependsOnMethods="zbookingtickets")
+	@Test(groups={"amit"})
 	public void checkingPNRStatus()
 	{
-		System.out.println("gchecking pnr status");
+		System.out.println("test case 2");
 	}
+	
+	@Test()
+	public void checkingPNRStatus1()
+	{
+		System.out.println("test case 3");
+	}
+	
+	@Test(groups={"regression","smoke"})
+	public void checkingPNRStatus2()
+	{
+		System.out.println("test case 4");
+	}
+	
+	@Test(groups={"amit","smoke"})
+	public void checkingPNRStatus3()
+	{
+		System.out.println("test case 5");
+	}
+	
 	
 	
 	
